@@ -1,7 +1,9 @@
+import Title from "../src/components/title/title"
 function HomePage () {
     return (
         <div>
-            <h1>Hello World, NextJs + ReactJs</h1>
+            <Title />
+            
             <h1>Hello World, NextJs + ReactJs</h1>
         </div>
     )
