@@ -1,7 +1,12 @@
+import styles from './Title.module.css'
 
-function Title () {
+const constante = 'Titulo'
+
+function Title (props) {
     return (
-        <h1>Sattva</h1>
+        <h1 className={styles.title}>
+            {props.children}
+        </h1>
     )
 }
 
