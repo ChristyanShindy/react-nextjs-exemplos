@@ -1,6 +1,9 @@
-function Title () {
+//Exemplo de componente react com Children(filhos)
+import styles from './Title.module.css'
+
+function Title (props) {
   return(
-    <h1>Title</h1>
+    <h1 className={styles.title}> { props.children } </h1>
   )
 }
 
